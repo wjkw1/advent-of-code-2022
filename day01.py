@@ -1,11 +1,10 @@
-"""First problem
-"""
+"""https://adventofcode.com/2022/day/1"""
 
 # part one
 def get_max_calorie_total():
     """Get max calories from input"""
 
-    with open("day1_input.txt", "r") as f:
+    with open("day01_input.txt", "r") as f:
         input_lines = f.readlines()
         highest_calorie_amount = 0
         current_calorie_total = 0
@@ -21,7 +20,7 @@ def get_max_calorie_total():
 
 # part two
 def get_top_three_max_calorie():
-    with open("day1_input.txt", "r") as f:
+    with open("day01_input.txt", "r") as f:
         top_three_elves = [0, 0, 0]
         current_calorie_total = 0
         input_lines = f.readlines()

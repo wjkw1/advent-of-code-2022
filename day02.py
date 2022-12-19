@@ -1,3 +1,4 @@
+"""https://adventofcode.com/2022/day/2"""
 from enum import Enum
 import json
 import os
@@ -5,7 +6,7 @@ import os
 
 def get_input_from_file():
     puzzle_input = []
-    with open("day2_input.txt", "r") as f:
+    with open("day02_input.txt", "r") as f:
         input_lines = f.readlines()
         for line in input_lines:
             lines = line.split(" ")
